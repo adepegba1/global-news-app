@@ -1,16 +1,16 @@
+import FormattedDate from "./FormattedDate";
 function Header() {
-  const now = new Date();
   return (
     <>
-      <p className="font-bold bg-white text-blue-600">{now.toLocaleString()}</p>
+      <FormattedDate />
       <header className="flex items-center justify-around bg-gray-400">
         <img
           className="w-20 h-20"
-          src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/news-agency-logo-design-template-fef757c514365e1ead01282f28400ac4.webp?ts=1737445704"
+          src="https://www.shutterstock.com/shutterstock/photos/2467118167/display_1500/stock-vector-latest-news-breaking-report-breaking-news-badge-template-set-latest-hot-news-label-message-2467118167.jpg"
           alt="Logo Image"
         />
         <h1 className="font-bold text-6xl text-blue-200 family-arial">
-          GLOBAL NEW
+          Top News
         </h1>
         <div className="flex gap-2">
           <input
@@ -18,6 +18,7 @@ function Header() {
             type="text"
             name="search"
             id="search"
+            placeholder="Search for news"
           />
           <input
             type="submit"
