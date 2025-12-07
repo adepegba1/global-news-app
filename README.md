@@ -1,6 +1,6 @@
 # 🌍 Global News App
 
-This project is a capstone submission for the Front-End Web Development Programme at<a href="https://www.alxafrica.com/">ALX Africa</a>.
+This project is a capstone submission for the Front-End Web Development Programme at <a href="https://www.alxafrica.com/">ALX Africa</a>.
 
 The goal of the application is to give users an easy and modern way to read news from around the world using a public news API.
 
@@ -53,6 +53,19 @@ The goal of this project is to practice real-world front-end development skills 
 - Practice working with dates, images, conditional data, and reusable components.
 
 - Complete the ALX capstone with a project that demonstrates real front-end skills.
+
+## Folder Organization
+
+- src
+  - components
+    - Footer.jsx
+    - Header.jsx
+    - NewsCard.jsx
+    - FormattedDate.jsx
+  - App.jsx
+- public
+- node_modules
+- README.md
 
 ## 🚀 Status
 
