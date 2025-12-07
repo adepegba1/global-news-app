@@ -1,11 +1,9 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import NewsCard from "./components/NewsCard";
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Footer></Footer>
+      <NewsCard></NewsCard>
     </>
   );
 }
