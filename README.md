@@ -62,6 +62,7 @@ The goal of this project is to practice real-world front-end development skills 
     - Header.jsx
     - NewsCard.jsx
     - FormattedDate.jsx
+    - ArticleDetails.jsx
   - App.jsx
 - public
 - node_modules
