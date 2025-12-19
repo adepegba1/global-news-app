@@ -1,14 +1,14 @@
-# 🌍 Global News App
+# 🌍 News Reader App (Capstone Project)
 
-This project is a capstone submission for the Front-End Web Development Programme at <a href="https://www.alxafrica.com/">ALX Africa</a>.
+This project is the final capstone submission for the Front-End Web Development Programme <a href="https://www.alxafrica.com/">ALX Africa</a>.It is a fully functional, production-ready news aggregator.
 
-The goal of the application is to give users an easy and modern way to read news from around the world using a public news API.
+A modern, responsive news aggregator built with _React_ and _Tailwind CSS_, powered by the **World News API**. This application allows users to browse top news stories by country or search for specific topics by country.
 
 ---
 
 ## 📰 Introduction
 
-The **Global News App** is a simple and user-friendly web application that fetches the latest news from different countries in real time.
+The **News Reader App** is a simple and user-friendly web application that fetches the latest news from different countries in real time.
 
 It uses the World News API to gather articles and then presents them to the user in a clean and organized layout.
 
@@ -56,18 +56,15 @@ The goal of this project is to practice real-world front-end development skills 
 
 ## Folder Organization
 
-- src
-  - components
-    - Footer.jsx
-    - Header.jsx
-    - NewsCard.jsx
-    - FormattedDate.jsx
-    - ArticleDetails.jsx
-  - App.jsx
-- public
-- node_modules
-- README.md
-
-## 🚀 Status
-
-This project is still in development and will continue to improve with new features and refinements.
+src/
+├── components/
+│ ├── ArticleDetails.jsx # Modal for full article view
+│ ├── Footer.jsx # Site credits and copyright
+│ ├── FormattedDate.jsx # Real-time clock and date display
+│ ├── Header.jsx # Branding and search container
+│ ├── NewsCard.jsx # Main Logic: State, Fetching, and Grid
+│ └── SearchBar.jsx # Input handling and search triggers
+├── services/
+│ └── newsServices.js # Axios configuration and API endpoints
+├── App.jsx # Main Entry Point
+└── main.jsx
